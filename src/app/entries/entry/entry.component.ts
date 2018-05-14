@@ -8,4 +8,10 @@ export class EntryComponent{
     title:string = "My first photo";
     photo:string="http://placehold.it/800x500?text=Angular Basics";
     description:string="Description"
+    comments:any[]=[
+        {name:"Mauro",comment:"Commentario"},
+        {name:"Mauro",comment:"Commentario"},
+        {name:"Mauro",comment:"Commentario"},
+        {name:"Mauro",comment:"Commentario"}
+    ]
 }
